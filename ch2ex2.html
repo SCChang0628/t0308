@@ -5,22 +5,34 @@
     <title>ch2範例</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>店家</td>
-            <td>產品名稱</td>
-            <td>價錢</td>
-        </tr>
-        <tr>
-            <td>得正</td>
-            <td>珍珠奶茶</td>
-            <td>50元</td>
-        </tr>
-        <tr>
-            <td>茶的魔手</td>
-            <td>藍莓凍奶</td>
-            <td>55元</td>
-        </tr>
-    </table>
+    <form action="form_action.php" method="get">
+        <h1>基本資料</h1>
+        <label for="myname">姓名</label>
+        <input type="text" id="myname" name="myname">
+        <br>
+        <br>
+        <label for="grade">年級</label>
+        <select id="grade">
+            <option value="一年級">一年級</option>
+            <option value="二年級">二年級</option>
+            <option value="三年級">三年級</option>
+            <option value="四年級">四年級</option>
+        </select>
+        <br>
+        <br>
+        <p>性別</p>
+        <label for="male">男</label>
+        <input type="radio" id="male" name="sex">
+        <label for="female">女</label>
+        <input type="radio" id="female" name="sex">
+        <br>
+        <br>
+        <label for="remarks">備註</label>
+        <br>
+        <textarea rows="4" id="remarks"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="送出">
+    </form>
 </body>
 </html>
