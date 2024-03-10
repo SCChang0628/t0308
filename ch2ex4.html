@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ch3範例</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            text-align: center;
+            border: 3px solid black;
+            color: white;
+        }
+        #relative{
+            background-color: blue;
+            height: 400px;
+            width: 500px;
+            line-height: 350px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        #absolute{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            position: absolute;
+            bottom: -3px;
+            right: -3px;     
+        }
+    </style>
+</head>
+<body>
+    <div id="relative">
+        定位父元素
+        <div id="absolute" class="absolute">父元素可訂位</div>
+    </div>
+</body>
+</html>
