@@ -16,10 +16,10 @@ body {
 
 /*header*/
 #logo{
-    
+
 }
 #logo img{
-    height: 100%;
+    width: 100%;
 }
 nav {
     background-color: #B63D32;
