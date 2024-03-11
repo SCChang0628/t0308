@@ -1,55 +1,62 @@
 @charset "utf-8";
 
-*{
+/* CSS Document */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+body {
     background-color: beige;
     font-family: Microsoft JhengHei;
 }
-#wrapper{
+#wrapper {
     margin: 0px auto;
-    padding: 1024px;
+    width: 1024px;
 }
-#logo{
-    /* height: 250px; */
+
+/*header*/
+#logo {
+    height: 250px;
 }
-#logo img{
-    width: 100%;
-}
-nav{
+nav {
     background-color: #B63D32;
     text-align: center;
 }
-ul{
+ul {
     display: inline-block;
     margin: 0px;
 }
-li{
+li {
     list-style-type: none;
     float: left;
     text-align: center;
 }
-li a{
+li a {
     display: block;
     padding: 15px 20px;
     color: #FFFFFF;
     text-decoration: none;
 }
-li a:hover{
+li a:hover {
     color: #FFC90E;
 }
-#content_in{
+
+/*content*/
+#content_in {
     padding: 30px 50px;
     text-align: center;
     background-color: #F4F4ED;
 }
-#content h1{
+
+#content h1 {
     color: #B63D32;
     margin-bottom: 10px;
 }
-#content_in a{
+#content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#content a {
     display: block;
     width: 130px;
     height: 40px;
@@ -59,22 +66,15 @@ li a:hover{
     background-color: #B63D32;
     color: #FFFFFF;
 }
-footer{
+
+/*footer*/
+footer {
+    clear: both;
     background-color: #71552A;
     text-align: center;
 }
-footer p{
+footer p {
     font-size: 10px;
     color: #FFFFFF;
     padding: 10px 0px;
-}
-@media screen and (max-width:1024px) {
-    #wapper{
-        width: 80%;
-    }
-}
-@media screen and (max-width:640px) {
-    li a{
-        padding: 10px;
-    }
 }
