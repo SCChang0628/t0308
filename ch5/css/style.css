@@ -15,8 +15,11 @@ body {
 }
 
 /*header*/
-#logo {
-    height: 250px;
+#logo{
+    
+}
+#logo img{
+    height: 100%;
 }
 nav {
     background-color: #B63D32;
@@ -77,4 +80,16 @@ footer p {
     font-size: 10px;
     color: #FFFFFF;
     padding: 10px 0px;
+}
+
+/*media*/
+@media screen and (max-width: 1024px) {
+    #wrapper{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    li a{
+        padding: 10px;
+    }
 }
