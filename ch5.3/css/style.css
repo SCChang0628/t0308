@@ -57,3 +57,7 @@ input.form-control{
     margin-top: 15px;
     text-align: center;
 }
+
+input.showpass{
+    margin-left: 50px;
+}
